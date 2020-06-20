@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+
+html{
+    font-size: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+
+
+/* Style for the slide-show section =================================================================================================== */
+
+/* END of Style for the slide-show section =================================================================================================== */
+
+/* contact us section */
+.header-text{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background-color: #000;
+    /* font-size: 50px;
+    line-height: 75px;
+    color: rgba(0, 0, 0, 0.5); */
+}
+
+.contact-detail-header, .address-content, .label, .my-input, textarea, .send-message{
+    font-family: 'Raleway', sans-serif;
+    /* font-style: normal;
+    font-weight: 500;
+    font-size: 1.8em; */
+}
+.contact-detail-header, .address-content{
+    font-size: 1.3rem;
+}
+.my-input{
+    height: 40px;
+}
+.send-message{
+    border-radius: 0;
+    background-color: #000;
+}
+textarea{
+    resize: none;
+}
+
+/*END of contact us section */
+
+@media (max-width:576px){
+
+    /* contact us section */
+    .header-text{
+        font-size: 6vw;
+    }
+
+    .contact-detail-header, .address-content, .label, .my-input, textarea, .send-message{
+        font-size: 1em;
+    }
+    /*END of contact us section */
+    
+}
